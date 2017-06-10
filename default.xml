@@ -36,7 +36,10 @@
            sync-c="true"
            sync-j="4" />
 
- <!-- AospExtended -->
+  <!-- PAXtended -->
+  <project path="manifest" name="manifest" remote="pax" />
+
+  <!-- AospExtended -->
   <project name="platform_build" path="build" groups="pdk,tradefed" remote="ex" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
