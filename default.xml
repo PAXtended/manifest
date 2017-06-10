@@ -27,6 +27,10 @@
            fetch="https://github.com/PAXtended"
            revision="n-mr2" />
 
+  <remote  name="pa"
+           fetch="https://github.com/aospa"
+           revision="nougat-mr2" />
+
   <default revision="refs/tags/android-7.1.2_r17"
            remote="aosp"
            sync-c="true"
